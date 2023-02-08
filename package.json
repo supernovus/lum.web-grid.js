@@ -1,0 +1,31 @@
+{
+  "name": "@lumjs/web-grid",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./grid": "./lib/grid.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.web-grid.js.git"
+  },
+  "dependencies": 
+  {
+    "@lumjs/grid": "^1.0.0",
+    "@lumjs/dom": "^1.2.1"
+  },
+  "devDependencies":
+  {
+    "@lumjs/tests-dom": "^1.0.1"
+  },
+  "scripts":
+  {
+    "test": "lumtest.js",
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
