@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-12-02
+### Changed
+- Removed unused `@lumjs/dom` and `@lumjs/tests-dom` dependencies.
+
 ## [1.0.0] - 2023-02-03
 ### Added
 - Initial release.
